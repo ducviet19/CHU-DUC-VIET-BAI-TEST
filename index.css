@@ -1,0 +1,173 @@
+:root {
+    --bg-color : #FAFAFA;
+    --text-color: #82868E
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    font-size: 13px;
+    background-color: #E5E5E5;
+}
+
+h3 {
+    font-size: 21px;
+}
+.contain {
+    width: 554px;
+    height: 800px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--bg-color);
+    margin: 30px auto;
+}
+
+
+
+
+/* header */
+header {
+    width: 554px;
+    background-color: var(--bg-color);
+    border-bottom: 4px solid;
+    border-color: #41454D;
+}
+.header__img img {
+    
+    width: 323px;
+    height: 84px;
+}
+
+.header__img {
+    display: flex;
+    justify-content: center;
+}
+
+.header__icon {
+    text-align: right;
+}
+.header__icon svg {
+    padding: 5px;
+}
+
+.header__title {
+    display: flex;
+    justify-content: center;
+    
+}
+.header__title h3 {
+    text-align: center;
+    width: 367px;
+    height: 27px;
+}
+
+
+
+/* main */
+
+.main {
+    height: 514px;
+    width: 554px;
+    background-color: var(--bg-color);
+}
+
+.form__main {
+    width: 85%;
+    margin: 50px auto;
+}
+
+.form__group {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form__group label {
+    line-height: 15,85px;
+    font-weight: 600;
+    width: 102px;
+    height: 40px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.form__group input {
+    box-sizing: border-box;
+    width: 360px;
+    height: 40px;
+    border: none;
+    padding: 0px 5px;
+    
+}
+.form__group input:focus {
+    outline: none;
+}
+
+.form__group select {
+    outline: none;
+    border: none;
+    width: 360px;
+    height: 40px;
+    color: var(--text-color);
+}
+.form__group textarea {
+    font-weight: 400;
+    width: 360px;
+    height: 148px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    resize: none;   
+    color: #1F2125;
+}
+
+.form__group textarea:focus {
+    outline: none;
+}
+
+.form__group-file {
+    margin-left: 110px;
+    position: relative;
+}
+.form__item-file {
+    visibility: hidden;
+    position: absolute;
+}
+.form__group-file-text {
+    font-size: 10px;
+    color: #1F2125;
+}
+
+.form__group-file-head {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
+.form__group-main {
+    display: block;
+}
+.submit {
+
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
+    width: 320px;
+    height: 40px;
+    background-color: #1DACCB;
+}
+
+
+
+
+/* error */
+
+.err {
+    font-weight: 400;
+    color: red;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<body>
+    <div class="contain">
+        <header>
+            <div class="header__icon">
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.2908 6.69358C18.3606 6.76325 18.416 6.84601 18.4538 6.93713C18.4916 7.02824 18.5111 7.12593 18.5111 7.22458C18.5111 7.32323 18.4916 7.42091 18.4538 7.51203C18.416 7.60315 18.3606 7.68591 18.2908 7.75558L7.79077 18.2556C7.64994 18.3964 7.45893 18.4755 7.25977 18.4755C7.0606 18.4755 6.8696 18.3964 6.72877 18.2556C6.58794 18.1147 6.50882 17.9237 6.50882 17.7246C6.50882 17.5254 6.58794 17.3344 6.72877 17.1936L17.2288 6.69358C17.2984 6.62373 17.3812 6.56832 17.4723 6.53051C17.5634 6.4927 17.6611 6.47324 17.7598 6.47324C17.8584 6.47324 17.9561 6.4927 18.0472 6.53051C18.1383 6.56832 18.2211 6.62373 18.2908 6.69358Z" fill="#41454D"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.72876 6.69358C6.65892 6.76325 6.6035 6.84601 6.56569 6.93713C6.52788 7.02824 6.50842 7.12593 6.50842 7.22458C6.50842 7.32323 6.52788 7.42091 6.56569 7.51203C6.6035 7.60315 6.65892 7.68591 6.72876 7.75558L17.2288 18.2556C17.3696 18.3964 17.5606 18.4755 17.7598 18.4755C17.9589 18.4755 18.1499 18.3964 18.2908 18.2556C18.4316 18.1147 18.5107 17.9237 18.5107 17.7246C18.5107 17.5254 18.4316 17.3344 18.2908 17.1936L7.79076 6.69358C7.7211 6.62373 7.63833 6.56832 7.54721 6.53051C7.4561 6.4927 7.35841 6.47324 7.25976 6.47324C7.16111 6.47324 7.06343 6.4927 6.97231 6.53051C6.8812 6.56832 6.79843 6.62373 6.72876 6.69358Z" fill="#41454D"/>
+                </svg>
+                    
+            </div>
+            <div class="header__img">
+                <img  src="https://s3-alpha-sig.figma.com/img/c91e/fcdf/44f0f6c9d539752378ec922773b73512?Expires=1623628800&Signature=hmj~pggWRWsM0LDXRhyEwSmpcPj9bHuxOgnOOnlrz~GGdObwR0g6YRKMvfijH5C2AJjvRoTutbvU4CbQy9lO5VasN4zT921bqAfu1Y9qMI2zgUwZSTxNoscG0FDmNhcL~a31VhWpOum1vY5sme84aJFdtU7DX1~0aYGDFIw835bfmcV5DoUKFKimFgsxeIzcMpXMZdCjZ7-HLXE0xUEvqCiXAGug5cPzQwLUZRsMrv-bABcPQ4P42Zps10BCaIgl6dqE1WyD5HhrkV2ajSefSsB0rQn8gx238Mhk6SUELfUbsZG-tZWwg3xGyuVnLcdV3q-Crc6TmikGCNZYpsqsuQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="">
+            </div>
+            <div class="header__title">
+                <h3>Hãy gửi CV của bạn cho chúng tôi</h3>
+            </div> 
+        </header>
+        <main>
+            <div class="form__main">
+                <div id="myForm">
+                    <div class="form__group">
+                        <label for="name" class="form__item-name">
+                            Tên của bạn
+                        </label>
+                        <div class="form__group-main">
+                            <input value="" type="text" id="name" name="name" placeholder="Ví dụ nguyễn văn A" class="form__item-input-name">
+                            <div class="err" id="name__error"></div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="form__group">
+                        <label for="phone" class="form__item-name">
+                            Số điện thoại
+                        </label>
+                        <div class="form__group-main">
+                            <input value="" type="text" id="phone" name="phone" placeholder="Số điện thoại liên lạc" class="form__item-input-name">
+                            <div class="err" id="phone__error"></div>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div class="form__group">
+                        <label for="position" class="form__item-name">
+                            Vị trí
+                        </label>
+                        <div class="form__group-main">
+                            <select name="position" id="position" >
+                                <option value="">Chọn vị trí ứng tuyển</option>
+                                <option value="Intern">Intern</option>
+                                <option value="Fresher">Fresher</option>
+                                <option value="Junior">Junior</option>
+                                <option value="Senior">Senior</option>
+                            </select>
+                            <div class="err" id="position__error"></div>
+                        </div>
+                        
+                        
+                    </div>
+                   
+                    <div class="form__group">
+                        <label for="exp" class="form__item-name">
+                            Kinh nghiệm làm việc
+                        </label>
+                        <div class="form__group-main">
+                            <textarea value="" name="exp" id="exp"></textarea>
+                            <div class="err" id="exp__error"></div>
+                        </div>
+                        
+                    </div>
+                
+                    <div class="form__group">
+                        <div class="form__group-file"> 
+                            <div class="form__group-file-head"> 
+                                <svg width="16" height="40" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.8413 5.82715C14.5802 5.56749 14.1581 5.56865 13.8984 5.82969L5.88428 13.8872C4.84454 14.9269 3.15585 14.9269 2.11417 13.8858C1.07327 12.8444 1.07327 11.1557 2.11429 10.1147L10.3657 1.81991C11.0148 1.17081 12.0702 1.17081 12.7212 1.82132C13.372 2.47215 13.372 3.52739 12.721 4.1784L5.88553 11.0139C5.88509 11.0143 5.88472 11.0148 5.88428 11.0152C5.62387 11.2742 5.20302 11.2739 4.94313 11.014C4.68282 10.7537 4.68282 10.3317 4.94313 10.0714L8.24258 6.7713C8.5029 6.51092 8.50287 6.08878 8.24249 5.82847C7.9821 5.56815 7.55997 5.56818 7.29965 5.82856L4.00024 9.12863C3.21926 9.90961 3.21926 11.1758 4.0003 11.9568C4.78132 12.7378 6.04747 12.7378 6.82852 11.9568C6.82942 11.9559 6.83014 11.9549 6.83102 11.954L13.6638 5.12117C14.8356 3.94946 14.8356 2.04998 13.6638 0.878268C12.492 -0.292756 10.5926 -0.292756 9.4216 0.878268L1.17021 9.17307C-0.390258 10.7335 -0.390258 13.2662 1.17134 14.8286C2.73396 16.3904 5.2667 16.3904 6.82839 14.8287L14.8438 6.76999C15.1035 6.50892 15.1023 6.08681 14.8413 5.82715Z" fill="black"/>
+                                </svg>
+                                <label class="form__group-file-text" for="filename">Đính kèm hình ảnh</label>
+                            </div>
+                            <div class="form__group-main">
+                                <input class="form__item-file" value="" type="file" id="filename" name="filename">
+                                <div class="err" id="file__error"></div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="form__group">
+                        <label for="email" class="form__item-name">
+                           Email
+                        </label>
+                        <div class="form__group-main">
+                            <input value="" id="email" name="email" type="email" placeholder="Ex: contact@freemind.vn" class="form__item-input-name">
+                            <div class="err" id="email__error"></div>   
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div class="btn">
+                        <button type="button" class="submit" id="btn-submit">Gửi CV cho FreeMind</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
